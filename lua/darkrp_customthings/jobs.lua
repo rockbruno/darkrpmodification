@@ -71,21 +71,6 @@ DarkRP.addHitmanTeam(CUSTOM_GANG)
 DarkRP.createGroupChat(CUSTOM_MOB, CUSTOM_GANG)
 DarkRP.createDemoteGroup("Gangsters", {CUSTOM_GANG, CUSTOM_MOB})
 
-DarkRP.createJob("Gun Dealer", {
-    color = Color(255, 140, 0, 255),
-    model = "models/player/monk.mdl",
-    description = [[A Gun Dealer is the only person who can sell guns to other people.
-        Make sure you aren't caught selling illegal firearms to the public! You might get arrested!]],
-    weapons = {},
-    command = "gundealer",
-    max = 5,
-    salary = GAMEMODE.Config.normalsalary,
-    admin = 0,
-    vote = false,
-    hasLicense = false,
-    category = "Citizens",
-})
-
 CUSTOM_POLICE = DarkRP.createJob("Civil Protection", {
     color = Color(25, 25, 170, 255),
     model = {"models/player/police.mdl", "models/player/police_fem.mdl"},
