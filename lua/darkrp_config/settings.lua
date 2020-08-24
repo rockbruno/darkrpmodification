@@ -96,7 +96,7 @@ GM.Config.enforceplayermodel            = true
 -- globalshow - Whether or not to display player info above players' heads in-game.
 GM.Config.globalshow                    = false
 -- ironshoot - Enable/disable whether people need iron sights to shoot.
-GM.Config.ironshoot                     = true
+GM.Config.ironshoot                     = false
 -- showjob - Whether or not to display a player's job above their head in-game.
 GM.Config.showjob                       = true
 -- letters - Enable/disable letter writing / typing.
@@ -140,7 +140,7 @@ GM.Config.respawninjail                 = true
 -- restrictallteams - Enable/disable Players can only be citizen until an admin allows them.
 GM.Config.restrictallteams              = false
 -- restrictbuypistol - Enabling this feature makes /buy available only to Gun Dealers.
-GM.Config.restrictbuypistol             = false
+GM.Config.restrictbuypistol             = true
 -- restrictdrop - Enable/disable restricting the weapons players can drop. Setting this to true disallows weapons from shipments from being dropped.
 GM.Config.restrictdrop                  = false
 -- revokeLicenseOnJobChange - Whether licenses are revoked when a player changes jobs.
@@ -176,11 +176,11 @@ GM.Config.weaponCheckerHideNoLicense    = false
 Value settings
 ]]
 -- adminnpcs - Whether or not NPCs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminnpcs                     = 3
+GM.Config.adminnpcs                     = 2
 -- adminsents - Whether or not SENTs should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
 GM.Config.adminsents                    = 1
 -- adminvehicles - Whether or not vehicles should be admin only. 0 = everyone, 1 = admin or higher, 2 = superadmin or higher, 3 = rcon only
-GM.Config.adminvehicles                 = 3
+GM.Config.adminvehicles                 = 2
 -- adminweapons - Who can spawn weapons: 0: admins only, 1: supadmins only, 2: no one, 3: everyone
 GM.Config.adminweapons                  = 1
 -- arrestspeed - Sets the max arrest speed.
@@ -267,7 +267,7 @@ GM.Config.shipmentspawntime             = 10
 -- startinghealth - the health when you spawn.
 GM.Config.startinghealth                = 100
 -- startingmoney - your wallet when you join for the first time.
-GM.Config.startingmoney                 = 500
+GM.Config.startingmoney                 = 2000
 -- vehiclecost - Sets the cost of a vehicle (To own it).
 GM.Config.vehiclecost                   = 40
 -- wallettaxmax - Maximum percentage of tax to be paid.
